@@ -1,0 +1,19 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+.app-container{
+  width: 100%;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.npm-item{
+  width: 33%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-height: 300px;
+}

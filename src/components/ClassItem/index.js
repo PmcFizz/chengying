@@ -20,7 +20,7 @@ function ClassItem(props) {
       className={`class-item ${libMainClass}`}
       data-hoverclass={hoverClass}
       onMouseLeave={leaverClassItem}
-      onMouseEnter={enterClassItem}></div>
+      onMouseEnter={enterClassItem}>{itemClass}</div>
   )
 }
 

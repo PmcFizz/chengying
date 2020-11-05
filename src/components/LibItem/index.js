@@ -1,5 +1,6 @@
 
 import ClassItem from '../ClassItem'
+import ShowEffect from '../ShowEffect'
 function LibItem(props) {
   const { libdata } = props
   const classItemArr = libdata.classArr.map(x => {
@@ -7,6 +8,8 @@ function LibItem(props) {
   })
   return (
     <div className="npm-item">
+      <ShowEffect libName={libdata.libName} />
+
       { classItemArr}
     </div>
   );

@@ -39,6 +39,6 @@ html,body{
 .effect-block{
   height: 150px;
   width: 150px;
-  border: 1px solid #ddd;
+  border: 2px solid #409eff;
   border-radius: 4px;
 }
